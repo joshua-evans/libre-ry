@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ebook Search Basic</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="popup.js"></script>
+  </head>
+  
+  <body>
+  
+   <h1 id="title" title="The easiest way to find free e-books.">Libre-ry <span style="font-size:12px;">Book Search</span></h1>
+   <p id="backArrow" title="Return to Search">&#8592;</p>
+  
+   <div class="container" id="searchDiv">
+    <form name="input" id="searchForm">
+     <input class="searchText" id="searchText" type="text" value=""><br /><br />
+     <div class="searchOptions">
+      <input class="radioBtn" id="titleBtn" name="searchOpt" type="radio" checked>
+      <label id="lbl1">Title</label>
+      <input class="radioBtn" id="authorBtn" name="searchOpt" type="radio">
+      <label id="lbl2">Author</label>
+      <input class="radioBtn" id="isbnBtn" name="searchOpt" type="radio">
+      <label id="lbl3">ISBN</label>
+     </div>
+    <input class="searchButton" id="searchBtn" type="submit" value="Search"> 
+   </form>
+   <br>
+   <p align="middle">Results from <a href="http://gen.lib.rus.ec/" id="libGenLink" title="http://gen.lib.rus.ec">Library Genesis<a><p>
+  </div>
+  
+  <div id="refDiv"></div>
+  <div id="refDiv2"></div>
+  <div id="tableDiv"></div>
+ 
+  <div id="arrowDiv">
+   <p id="prevPageArrow" title="Previous">&#8592;</p>
+   <p id="nextPageArrow" title="Next">&#8594;</p>
+  </div>
+  
+  </body>
+</html>
+
