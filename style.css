@@ -1,0 +1,190 @@
+::selection {
+  background:#ffca4f;
+  color:#023E4F;
+}
+body {
+  min-width: 300px;
+  min-height: 140px;
+  overflow-x: hidden;
+  background-color: #388FA8;
+}
+
+.container {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .searchText {
+  width: 100%;
+  clear: both;
+  color:#023E4F;
+  background-color: #D7F0F7;
+  border-color:#034456;
+  border:none;
+}
+.container .searchButton {
+ 
+  float: right;
+  display: inline-block;
+  padding: 9px 10px;
+  color: #023E4F;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  font-size:14px;
+  border: none;
+  clear:left;
+  cursor: pointer;
+  
+   background: #023E4F;
+   color:#ffca4f;
+}
+.container .searchButton:hover {
+   background: #D7F0F7; 
+   color: #023E4F;
+}
+.container .searchButton:active {
+   color: #023E4F;
+}
+.container .searchOptions{
+  display: inline-block;
+  margin-top:5px;
+}
+
+.container label {
+  font-size:14px;
+  font-weight:bold;
+  padding-right:7px;
+}
+
+#lbl1 {
+  color:#D7F0F7;
+  text-shadow: 0px 0px 2px #023E4F;
+}
+#lbl2 {
+  color:#023E4F;
+}
+#lbl3 {
+  color:#023E4F;
+}
+
+.radioBtn {
+;
+}
+
+table {
+  max-width: 100%;
+}
+
+.tableLabel {
+  max-width:70px;
+}
+
+.tableNumber {
+  text-align:center;
+  font-size:12px;
+  color:#D7F0F7;
+}
+
+.resultLabel {	
+  color:#023E4F;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.resultsText {
+  color:#D7F0F7;
+  font-size:15px;
+  font-weight:bold;
+  text-decoration:none;
+  cursor:default;
+  text-shadow: 0px 0px 2px #023E4F;
+}
+
+.title {
+  color:#ffca4f;
+}
+
+.downloads {
+  color:#D7F0F7;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration:none;
+  vertical-align:middle;
+  position:relative;
+  top:-5px;
+}
+
+.downloads:hover {
+  color:#C8260C;
+}
+.downloads:active {
+  color:#000;
+}
+
+p {
+  color:#023E4F;
+  font-size:11px;
+  font-weight:bold;
+}
+#libGenLink {
+  color:#D7F0F7;
+  font-size:11px;
+  font-weight:bold;
+  text-decoration:none;
+}
+#libGenLink:hover {
+ color:#ffca4f;
+}
+
+#backArrow {
+  color:#fff;
+  font-size:50px;
+  font-weight:bold;
+  position: absolute;
+  top: -55px;
+  left:20px;
+  visibility:hidden;
+  cursor:pointer;
+}
+
+#arrowDiv {
+  visibility:hidden;
+  position:absolute;
+  top:-25px;
+}
+
+#prevPageArrow {
+  color:#fff;
+  font-size:50px;
+  font-weight:bold;
+  position: absolute;
+  clear:right;
+  cursor:pointer;
+  margin:0px;
+}
+
+#nextPageArrow {
+  color:#fff;
+  font-weight:bold;
+  font-size:50px;
+  position: relative;
+  cursor:pointer;
+  float:right;
+  margin:0px;
+}
+
+#title {
+  text-align:center;
+  color:#ffca4f;
+ text-shadow: 0px 0px 2px #023E4F;
+  
+}
+
+#booksFoundString {
+  text-align:center;
+  color:#023E4F;
+  font-size:15px;
+  font-weight:bold;
+}
